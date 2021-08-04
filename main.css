@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,800");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&display=swap');
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: rgb(195, 252, 187);
+
+}
+
+.image-logo {
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+
+
+@media screen and (max-width: 500px){
+  .image-logo {
+     width: 150px;
+     margin-left:auto;
+  }
+}
+
+
+.snip1135 {
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-size: 0.75em;
+  font-weight: 800;
+  margin-left: auto;
+  margin-bottom: 2%;
+  margin-top: 55px;
+  width: calc(100% + 3.05rem);
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+.snip1135 a {
+  padding: 0.5em 0;
+  color: rgba(48, 48, 48, 0.5);
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 a:before,
+.snip1135 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #0da5ec;
+}
+.snip1135 a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #000000;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.snip1135 a:hover:before,
+.snip1135 .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 100%;
+}
+
+
+.head-text{
+  font-family: 'Viga', sans-serif;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-weight: 500;
+  text-decoration: double;
+  letter-spacing: 0.05rem;
+}
+/* Demo purposes only */
+.p-text{
+  font-family: 'Viga', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.05rem;
+}
+
+.card{
+  background-color: rgb(175, 255, 192);
+  justify-content: space-between;
+  
+}
+
+.card:hover {
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: all 800ms cubic-bezier(0.15, 1, 0.2, 1);
+}
+
+.tokenomics-h1{
+  font-family: "Raleway", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  margin-left: 5%;
+  margin-top: 8%;
+  font-weight: 500;
+  text-decoration: double;
+  letter-spacing: 0.05rem;
+}
+
+
+.cardtext{
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 2%;
+  letter-spacing: 0.05rem; 
+}
+
+.cardheading{
+  font-family: 'Viga', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.05rem; 
+}
+
+.cardimage{
+  position: relative;
+  overflow: hidden;
+  width: 130px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-left: 40px;
+}
+
+.img-1{
+  width: 462px; 
+  height:auto; 
+  margin-left: 7% ;
+  display: inline-block;
+  animation: bounce infinite; 
+  animation-duration: 5s;
+
+  }
+
+  .heading{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin-top: 2%;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.05rem; 
+  }
+
+
+.style-1{
+  font-family: 'Viga', sans-serif;
+  margin-top: 1%;
+  margin-left: 4%;
+  text-align: left;
+  text-decoration: double;
+  font-size: 15px;
+  line-height: 1.375;
+  letter-spacing: 0.05rem; 
+  font-weight: 400;
+
+}

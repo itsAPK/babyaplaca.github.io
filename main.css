@@ -31,6 +31,16 @@ body{
   background: rgb(195, 252, 187);
 }
 
+footer{
+  
+  
+  background-color: rgb(172, 253, 161);
+  padding: 20px 0;
+  margin-top: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Raleway", Arial, sans-serif;
+}
 
 
 .logo {
@@ -120,6 +130,7 @@ body{
 }
 /* Demo purposes only */
 .p-text {
+  position: relative;
   font-family: "Viga", sans-serif;
   font-size: 15px;
   letter-spacing: 0.05rem;
@@ -253,6 +264,8 @@ body{
   .card-div{
     margin-left: 15%; 
   }
+
+ 
 }
 
 
